@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tp2model" id="DEAF6D98-7FF9-8E38-527C-A65509A28498" version="3.5">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:06:48 UTC</createdTime>
+<ownerDesignName>tp3amodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DEAF6D98-7FF9-8E38-527C-A65509A28498</designId>
+</OSDM_Design>

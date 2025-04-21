@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4085022C-245E-AAC4-B292-ED60B6980CF2" name="produit">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>C4DDCD47-2A4D-8BC3-8CFF-B1EF9407E2ED</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produit" id="B6E8D712-63D8-3CFE-30F0-3FB8C225244A">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>F4984402-CA9F-4545-02EF-6E5B6B4AA1C6</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_produit" id="6590D256-0492-4DA6-4D3A-F98C0CA738E3">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>B8860AA6-7D5B-6B12-520B-1E730F306DE7</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix" id="82C84724-2EF7-3189-EE11-1B01C01A8E86">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>DB03FCA1-3049-4FA0-77CE-5DF9C652E73E</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="8F87C2D4-1961-0192-94BA-176786BC9C33">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>05DB5D4B-B126-09B8-1EF5-1E7B427FCF8D</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="57EA41F2-99E8-9672-D5F6-8AC6B3D66B66">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>684C69A0-6C18-C2B4-C9A9-B0F2A1EA0FD6</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categorie" id="6DE900A2-BDBA-5179-A523-D3C4206249BA">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>18FA5BC3-7806-E3E2-DD68-28994E1105B0</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="langue" id="188FFBBD-7E07-82F8-AF3F-550B8477BB9C">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>439B37C5-5089-5A7A-CFC7-3EF9CD197669</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2575875E-B807-A634-B41B-5E9E03550EB4" name="produit_PK">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>CD40858F-5DFA-B259-B660-8F9AC25F962C</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6E8D712-63D8-3CFE-30F0-3FB8C225244A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

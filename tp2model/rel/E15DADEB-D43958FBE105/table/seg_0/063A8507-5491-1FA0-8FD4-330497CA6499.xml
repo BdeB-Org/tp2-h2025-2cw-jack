@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="063A8507-5491-1FA0-8FD4-330497CA6499" name="client">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>A79E6225-BB18-75F2-D6E7-5ED6524B68AB</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="48408983-0AD8-98FA-1302-326AB6449813">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>5CB21A55-6FC1-E318-F24C-3A547A5B5E56</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_client" id="31D631AB-B1EA-BE2C-6AD0-EBEF5A18B7ED">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>627CF663-313A-85A5-1DC4-7471916F4966</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BC943DB-1826-D9B2-A9E2-15F3743682F7" name="client_PK">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<generatorID>10633DEA-ED2A-1CFE-EB8A-E4DC2942C1B7</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48408983-0AD8-98FA-1302-326AB6449813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

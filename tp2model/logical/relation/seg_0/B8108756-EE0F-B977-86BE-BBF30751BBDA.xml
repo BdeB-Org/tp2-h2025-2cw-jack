@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="B8108756-EE0F-B977-86BE-BBF30751BBDA">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 20:50:59 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<sourcePk>27EEA0AB-AF12-0172-7906-8C47A52C1530</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>posséder</nameOnSource>
+<nameOnTarget>appartenir</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1DB6AFA-9705-6BD8-6955-224F38877E7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12137475-D382-00E8-BAA9-D176D5BC1048</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

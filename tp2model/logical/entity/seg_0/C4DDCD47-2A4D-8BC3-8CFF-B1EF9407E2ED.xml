@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4DDCD47-2A4D-8BC3-8CFF-B1EF9407E2ED" name="produit">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:11:54 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produit" id="F4984402-CA9F-4545-02EF-6E5B6B4AA1C6">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:04 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_produit" id="B8860AA6-7D5B-6B12-520B-1E730F306DE7">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:04 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="DB03FCA1-3049-4FA0-77CE-5DF9C652E73E">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:04 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="05DB5D4B-B126-09B8-1EF5-1E7B427FCF8D">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:04 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="684C69A0-6C18-C2B4-C9A9-B0F2A1EA0FD6">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:04 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categorie" id="18FA5BC3-7806-E3E2-DD68-28994E1105B0">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:05 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="langue" id="439B37C5-5089-5A7A-CFC7-3EF9CD197669">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-20 23:43:52 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD40858F-5DFA-B259-B660-8F9AC25F962C" name="produit PK">
+<createdBy>jackj</createdBy>
+<createdTime>2025-04-15 18:12:06 UTC</createdTime>
+<ownerDesignName>tp2model</ownerDesignName>
+<engineerTo>
+<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4984402-CA9F-4545-02EF-6E5B6B4AA1C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
