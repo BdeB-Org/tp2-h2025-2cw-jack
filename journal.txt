@@ -1,0 +1,24 @@
+13 mai 2025
+Problème :
+Je veux faire en sorte que la page produit soit dynamique et que je n’aie pas besoin d’en créer manuellement pour chacun des produits du site.
+Solution :
+Utiliser le local storage afin de stocker un produit en tant qu’objet et utiliser JSON pour le réintégrer à la page produit.
+
+14 mai 2025
+Problème :
+Je dois transférer les livres de la table produit à la table panier. Mais ils ne peuvent pas être des paniers directement, mais doivent être des items avant.
+Solution :
+Faire deux fetch : un premier pour ajouter aux items, un deuxième pour ajouter l’item au panier.
+J’ai dû utiliser des fonctions async afin de faire exécuter les fetch les uns après les autres plutôt que tous en même temps.
+
+14 mai
+Problème :
+Comment déterminer quel ID item donner à l’item.
+Solution :
+Je voulais trouver la valeur de l’ID précédent, mais c’est plus simple de lui attribuer les 5 derniers chiffres du chiffre de l’heure Unix.
+
+15 mai 2025
+Problème :
+Comment trouver l’ID du client afin de l’attribuer.
+Solution :
+Je suis allé chercher l’ID du client en faisant une fonction qui va le chercher dans la BD.
