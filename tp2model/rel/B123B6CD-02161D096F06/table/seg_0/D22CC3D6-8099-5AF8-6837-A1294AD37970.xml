@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4085022C-245E-AAC4-B292-ED60B6980CF2" name="produit">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D22CC3D6-8099-5AF8-6837-A1294AD37970" name="produit">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>C4DDCD47-2A4D-8BC3-8CFF-B1EF9407E2ED</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_produit" id="B6E8D712-63D8-3CFE-30F0-3FB8C225244A">
+<Column name="id_produit" id="E34B0BA8-B108-24C2-741B-7555316FACDB">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>F4984402-CA9F-4545-02EF-6E5B6B4AA1C6</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -22,9 +22,9 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nom_produit" id="6590D256-0492-4DA6-4D3A-F98C0CA738E3">
+<Column name="nom_produit" id="73A263A6-599B-1DF4-9659-76204E62753F">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>B8860AA6-7D5B-6B12-520B-1E730F306DE7</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="prix" id="82C84724-2EF7-3189-EE11-1B01C01A8E86">
+<Column name="prix" id="06E72C8E-D9EB-D1E6-ACBE-A67CD15519A1">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>DB03FCA1-3049-4FA0-77CE-5DF9C652E73E</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="description" id="8F87C2D4-1961-0192-94BA-176786BC9C33">
+<Column name="description" id="D2E12586-EB18-7CF8-613D-87E74C3270BE">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>05DB5D4B-B126-09B8-1EF5-1E7B427FCF8D</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stock" id="57EA41F2-99E8-9672-D5F6-8AC6B3D66B66">
+<Column name="stock" id="64178A00-92AC-F6A1-7CF2-D6BE4399871D">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>684C69A0-6C18-C2B4-C9A9-B0F2A1EA0FD6</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="categorie" id="6DE900A2-BDBA-5179-A523-D3C4206249BA">
+<Column name="categorie" id="B1E52B99-4CB5-99A8-027E-CEF82BC17DEC">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>18FA5BC3-7806-E3E2-DD68-28994E1105B0</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,9 +82,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="langue" id="188FFBBD-7E07-82F8-AF3F-550B8477BB9C">
+<Column name="langue" id="49B88946-0B04-E385-0F28-DC18DFDD43C1">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>439B37C5-5089-5A7A-CFC7-3EF9CD197669</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,18 +94,65 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="auteur" id="A7629846-DB15-6F9B-16F7-3BD7EA02FC7F">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>5C546BB3-90AB-618A-539B-EBED31D1630E</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre" id="50CF4A38-5202-FF82-96A9-4C01D2069A6E">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>ADBD5AD4-A268-C2B3-B4B4-52AE50626DA4</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datepublication" id="A0121A04-0D98-BF48-4EBA-F0B725C15E5F">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>54091FCF-6446-1410-5FE8-1F87F82AA02B</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="image" id="32F06F67-C947-3373-696B-FF79FC3FF795">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>4F433D5A-BF1B-21CB-7C31-AC2D7F1A23F4</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2575875E-B807-A634-B41B-5E9E03550EB4" name="produit_PK">
+<ind_PK_UK id="6895C337-7FFD-B2D9-8093-C1C2375A875C" name="produit_PK">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>CD40858F-5DFA-B259-B660-8F9AC25F962C</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B6E8D712-63D8-3CFE-30F0-3FB8C225244A"/>
+<colUsage columnID="E34B0BA8-B108-24C2-741B-7555316FACDB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -4,7 +4,7 @@
 <createdTime>2025-04-15 20:49:48 UTC</createdTime>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-04-15 20:50:12 UTC</createdTime>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +28,12 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qté" id="B0109B45-32FB-318A-650D-97F350836DFD">
+<Attribute name="qte" id="B0109B45-32FB-318A-650D-97F350836DFD">
 <createdBy>jackj</createdBy>
 <createdTime>2025-04-15 20:50:21 UTC</createdTime>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,42 +47,29 @@
 <generatorID>EA24819D-BE03-A3E0-8417-B57E0347187F</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
 <referedAttribute>F4984402-CA9F-4545-02EF-6E5B6B4AA1C6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_client" id="DC353CEA-E65E-F611-C4BF-6D95A30599FA">
+<Attribute name="id_panier" id="60415A90-698E-C92B-0344-61195FF6CAC6">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 00:33:32 UTC</createdTime>
+<createdTime>2025-05-24 01:09:31 UTC</createdTime>
 <generatorID>B8108756-EE0F-B977-86BE-BBF30751BBDA</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
-<referedAttribute>6DCCC1AE-6B74-0E36-40CE-33CEDC0655A4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT035</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_produit" id="CBED01BD-7AC5-D7EF-D015-23948372E07C">
-<createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:51:55 UTC</createdTime>
-<ownerDesignName>tp2model</ownerDesignName>
-<engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
-</engineerTo>
+<referedAttribute>ACDBF33F-2DA3-0BE0-AA79-3C1528737AE5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,7 +78,7 @@
 <createdTime>2025-04-15 20:50:16 UTC</createdTime>
 <ownerDesignName>tp2model</ownerDesignName>
 <engineerTo>
-<item key="E15DADEB-D316-C2E1-1123-D43958FBE105" value="true"/>
+<item key="B123B6CD-061D-45BE-2639-02161D096F06" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

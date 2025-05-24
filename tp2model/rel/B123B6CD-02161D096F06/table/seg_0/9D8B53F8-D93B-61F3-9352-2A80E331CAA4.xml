@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D8B53F8-D93B-61F3-9352-2A80E331CAA4" name="Panier">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>D1DB6AFA-9705-6BD8-6955-224F38877E7F</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id_client" id="DD533391-866A-75E6-5DA9-B892AA23D721">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>61439553-8D9F-1F3D-79E9-C8310B9D9782</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DCF55E7-6BD8-F279-7433-C549B1988FD4" referredColumn="1DD534F6-69EB-A1AD-9CF3-99A9C23647FA"/>
+</associations>
+</Column>
+<Column name="id_item" id="749F68C5-3EEB-B64A-E610-E617CF8DA014">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>E2789937-4E6D-5FB6-6DCF-C883161B9C83</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_panier" id="11E8C0A0-B457-ACA4-B566-EAC23DB26962">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>ACDBF33F-2DA3-0BE0-AA79-3C1528737AE5</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEDCBB0C-5599-E557-BD57-B46CAE5218B6" name="Panier_PK">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>27EEA0AB-AF12-0172-7906-8C47A52C1530</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11E8C0A0-B457-ACA4-B566-EAC23DB26962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDF4BB37-E99B-B66C-2623-5F4E20A33809" name="Panier_client_FK">
+<createdBy>jackj</createdBy>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>97E40922-A2F0-4871-DD3B-39707A7C707F</generatorID>
+<ownerDesignName>tp2model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD533391-866A-75E6-5DA9-B892AA23D721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

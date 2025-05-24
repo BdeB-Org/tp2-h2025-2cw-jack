@@ -1,30 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="530F5479-A036-9FB4-C19B-F6B0843100AD" name="item">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8DE0C27-1C2A-7E9B-317C-F48C6F960DC9" name="item">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>12137475-D382-00E8-BAA9-D176D5BC1048</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_item" id="5A44DB56-C37B-B145-212E-07CA3211DD85">
+<Column name="id_item" id="0A689650-4768-CDBA-4DD5-F5FE337AE377">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>4361B72F-5D34-4095-EDBE-061AA4BE6FA3</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="qté" id="1059AAC0-D40D-003B-B1BE-FFE4CD88BD99">
+<Column name="qte" id="047E634D-3747-5D1C-B6F4-4ED30883BED8">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>B0109B45-32FB-318A-650D-97F350836DFD</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,84 +34,72 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="produit_id_produit" id="88F1706A-A26C-F43E-6F87-CF8A6422A224">
+<Column name="produit_id_produit" id="89CEBABB-6775-DA06-819E-4EA0FD5133C6">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>83EE0A82-37F2-9F07-E616-D0D27A80AF79</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B576B266-72EC-5432-AF51-8D4DF0A31119" referredColumn="B6E8D712-63D8-3CFE-30F0-3FB8C225244A"/>
+<colAssociation fkAssociation="FCF82078-F945-61BC-E024-2F90FF3DA2C2" referredColumn="E34B0BA8-B108-24C2-741B-7555316FACDB"/>
 </associations>
 </Column>
-<Column name="Panier_id_client" id="E5A35A41-08B2-E3AA-EAAA-09E1672AC340">
+<Column name="Panier_id_panier" id="9F3A94ED-76B9-C73B-6FDD-BFC5666003AD">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
-<generatorID>DC353CEA-E65E-F611-C4BF-6D95A30599FA</generatorID>
-<ownerDesignName>tp2model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT035</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AA32A76C-E0D6-5715-58BD-7AAA5AFF9FDD" referredColumn="C2F17C6A-E81E-645A-F805-1A932D7CFA53"/>
-</associations>
-</Column>
-<Column name="id_produit" id="FAF763A5-5CC5-14DD-C86A-DB39FD4EAAF1">
-<createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
-<generatorID>CBED01BD-7AC5-D7EF-D015-23948372E07C</generatorID>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
+<generatorID>60415A90-698E-C92B-0344-61195FF6CAC6</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED17C997-EC07-8816-0B64-9AE5DD1D74CB" referredColumn="11E8C0A0-B457-ACA4-B566-EAC23DB26962"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1D4C6821-29DF-CC97-4693-6E0B79E47F08" name="item_PK">
+<ind_PK_UK id="B9D25BC7-E36B-1454-A5D8-678C55D4AA20" name="item_PK">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>775AD2CB-3D4E-C11A-BB97-5E3C2B6BBE45</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A44DB56-C37B-B145-212E-07CA3211DD85"/>
+<colUsage columnID="0A689650-4768-CDBA-4DD5-F5FE337AE377"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="277D4A4C-0B25-E686-63F5-B0D0AD5C14AE" name="item_Panier_FK">
+<ind_PK_UK id="06AD05E7-3F74-26E0-3102-E1D4D78E7A9E" name="item_Panier_FK">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>B8108756-EE0F-B977-86BE-BBF30751BBDA</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5A35A41-08B2-E3AA-EAAA-09E1672AC340"/>
+<colUsage columnID="9F3A94ED-76B9-C73B-6FDD-BFC5666003AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1B51C9D9-6C0C-9966-3706-3438E17188F9" name="item_produit_FK">
+<ind_PK_UK id="4428CD58-52A3-FEF1-9925-31847BA8E473" name="item_produit_FK">
 <createdBy>jackj</createdBy>
-<createdTime>2025-04-20 23:53:33 UTC</createdTime>
+<createdTime>2025-05-24 01:12:40 UTC</createdTime>
 <generatorID>EA24819D-BE03-A3E0-8417-B57E0347187F</generatorID>
 <ownerDesignName>tp2model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="88F1706A-A26C-F43E-6F87-CF8A6422A224"/>
+<colUsage columnID="89CEBABB-6775-DA06-819E-4EA0FD5133C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
